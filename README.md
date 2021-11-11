@@ -1,0 +1,3 @@
+The goal of this project is to associate code with the output of runs. This prevents the circumstance where you come back to a project and have no idea where your data came from.
+
+This association is acheived by commiting the entire directory to a `runs` branch of a git repo every time the code is run. The resulting git hash can then be logged or otherwise associated with output, creating a perminant record of the exact code used to generate certain output.
